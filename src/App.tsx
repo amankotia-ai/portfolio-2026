@@ -1,12 +1,39 @@
+import { useEffect, useState } from 'react';
 import Hero from './components/Hero';
 import ImageGallery from './components/ImageGallery';
 import About from './components/About';
 import Process from './components/Process';
 
+function getCurrentRoute() {
+  const normalizedPath = window.location.pathname.replace(
+    /\/+$/,
+    '',
+  ) || '/';
+
+  if (normalizedPath === '/about' || normalizedPath === '/process') {
+    return normalizedPath;
+  }
+
+  return '/';
+}
+
 function App() {
-  const normalizedPath = window.location.pathname.replace(/\/+$/, '') || '/';
-  const isAboutPage = normalizedPath === '/about';
-  const isProcessPage = normalizedPath === '/process';
+  const [route, setRoute] = useState(getCurrentRoute);
+
+  useEffect(() => {
+    const handlePopState = () => {
+      setRoute(getCurrentRoute());
+    };
+
+    window.addEventListener('popstate', handlePopState);
+
+    return () => {
+      window.removeEventListener('popstate', handlePopState);
+    };
+  }, []);
+
+  const isAboutPage = route === '/about';
+  const isProcessPage = route === '/process';
 
   return (
     <div className="min-h-screen bg-white">
