@@ -4,22 +4,22 @@ const processSteps = [
   {
     title: '001 Align',
     description:
-      "We dig into your goals, users, and constraints. We create moodboards, map user flows and design wireframes so everyone's on the same page.",
+      "I dig into your goals, users, and constraints. I create moodboards, map user flows, and design wireframes so everyone is on the same page.",
   },
   {
     title: '002 Direct',
     description:
-      'We design the key screens and establish a clear visual direction. You sign off before we build out the rest.',
+      'I design the key screens and establish a clear visual direction. You sign off before I build out the rest.',
   },
   {
     title: '003 Build',
     description:
-      'We design every screen, state, and edge case. Internal reviews keep everything consistent and ship-ready.',
+      'I design every screen, state, and edge case. I run internal reviews to keep everything consistent and ship-ready.',
   },
   {
     title: '004 Polish',
     description:
-      'We refine details, define interactions, and hand over organised files your developers can build from.',
+      'I refine details, define interactions, and hand over organised files your developers can build from.',
   },
 ];
 
@@ -32,12 +32,12 @@ function Process() {
         <h1 className="text-[22px] text-balance leading-tight">
           From kickoff to handoff,
           <br />
-          how we get through it
+          how I get through it
         </h1>
 
         <p className="text-pretty">
-          Once you subscribe, we set up a shared Slack or Telegram channel and
-          we get started that very day. You&apos;ll hear from us 2-3 times a
+          Once you subscribe, I set up a shared Slack or Telegram channel and I
+          get started that very day. You&apos;ll hear from me 2-3 times a
           week with progress updates, questions, and work to review.
         </p>
 
