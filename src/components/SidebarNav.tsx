@@ -30,7 +30,12 @@ function handleNavClick(event: MouseEvent<HTMLAnchorElement>, path: RoutePath) {
 
 function SidebarNav({ activePage }: SidebarNavProps) {
   return (
-    <nav className="flex items-center gap-5">
+    <nav className="flex items-center gap-4">
+      <img
+        src="/images/IMG_8620.PNG"
+        alt="Abhishek Mankotia"
+        className="w-14 h-10 rounded-xl bg-[#EFEFEF] object-cover"
+      />
       <div className="flex items-center gap-4 text-sm">
         <a
           href="/"

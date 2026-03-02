@@ -2,7 +2,7 @@ function ImageGallery() {
   const images = [
     // Unifize
     '/images/Unifize%20-%20Cover.png',
-    '/images/Unifize%20-%20Home%20Page.png',
+    // '/images/Unifize%20-%20Home%20Page.png',
     '/images/Unifize%20-%20Home%20Page-1.png',
     '/images/Unifize%20-%20Home%20Page%202.png',
     '/images/Unifize%20-%20Products.png',

@@ -61,7 +61,7 @@ function ContentSection() {
           <p className="text-base">Social assets</p>
           <p className="text-base">UX auditing</p>
           <p className="text-base">Consulting</p>
-          <p className="text-base">Web devellopment</p>
+          <p className="text-base">Web development</p>
         </div>
       </div>
     </div>
