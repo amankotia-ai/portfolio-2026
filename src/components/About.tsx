@@ -10,17 +10,6 @@ function About() {
           Abhishek Mankotia
         </h1>
 
-        <div className="flex flex-col gap-4 text-neutral-500">
-          <p className="text-pretty">
-            Every great digital product starts with a simple conviction: technology must amplify human intent, never obscure it. Operating at the intersection of design and engineering involves crafting brand identities, systems, and full-stack applications that make the complex feel completely intuitive.
-          </p>
-          <p className="text-pretty">
-            With the rise of intelligent workflows and AI tooling, the friction of building has dissolved. The old rules of rigid development are gone, replaced by the ability to deliver adaptive, fast-scaling applications with incredible agility.
-          </p>
-          <p className="text-pretty">
-            But speed without direction is just noise. True resonance comes from a deeply rooted design-first approach. It gives technology a heartbeat, ensuring that efficiency translates into an experience people actually understand, trust, and love using.
-          </p>
-        </div>
       </div>
 
       <div className="flex flex-col gap-8 text-sm">
